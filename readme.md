@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lydell/climap.png?branch=master)](https://travis-ci.org/lydell/climap)
+
 Overview
 ========
 
