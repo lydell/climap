@@ -1,6 +1,6 @@
 {
   "name": "climap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Simon Lydell",
   "license": "LGPLv3",
   "description": "Super simple source map generation for CLI tools.",
