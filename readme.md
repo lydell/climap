@@ -15,6 +15,16 @@ will:
 - have source maps of its source files applied to itself. (Takes care of "in source maps".)
 
 
+Installation
+============
+
+`npm install climap`
+
+```js
+var Climap = require("climap")
+```
+
+
 Usage
 =====
 
