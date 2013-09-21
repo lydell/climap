@@ -35,7 +35,11 @@ function read(file) {
 }
 
 function sep(string, escape) {
-	return string.replace(/[\/\\]/g, (escape || "") + path.sep)
+	var separator = path.sep
+	if (escape && separator === "\\") {
+		separator = "\\\\"
+	}
+	return string.replace(/[\/\\]/g, separator)
 }
 
 function Instance() {
@@ -502,7 +506,7 @@ describe("Climap", function() {
 			// Note: The expected source map was verified using
 			// <http://sokra.github.io/source-map-visualization/>
 			read("test/generated/source-bundle.css.map")
-				.should.eql(sep(read("test/files/source-bundle.css.map.expected"), "\\"))
+				.should.eql(sep(read("test/files/source-bundle.css.map.expected"), true))
 		})
 
 
