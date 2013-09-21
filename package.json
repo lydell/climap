@@ -13,7 +13,7 @@
     "source map"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "jshint index.js example/ test/ && mocha"
   },
   "dependencies": {
     "source-map": "~0.1.29"
@@ -23,7 +23,8 @@
     "chai": "~1.8.0",
     "sinon": "~1.7.3",
     "sinon-chai": "~2.4.0",
-    "css-parse": "*",
-    "sheet": "*"
+    "css-parse": "lydell/css-parse#source",
+    "sheet": "lydell/sheet#mine",
+    "jshint": "~2.1.11"
   }
 }
