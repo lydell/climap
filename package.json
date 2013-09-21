@@ -1,0 +1,29 @@
+{
+  "name": "climap",
+  "version": "0.1.0",
+  "author": "Simon Lydell",
+  "license": "LGPLv3",
+  "description": "Super simple source map generation for CLI tools.",
+  "main": "index.js",
+  "repository": "lydell/climap",
+  "homepage": "https://github.com/lydell/climap",
+  "bugs": "https://github.com/lydell/climap/issues",
+  "keywords": [
+    "cli",
+    "source map"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "source-map": "~0.1.29"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "chai": "~1.8.0",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0",
+    "css-parse": "*",
+    "sheet": "*"
+  }
+}
