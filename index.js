@@ -141,7 +141,7 @@ Climap.prototype.compile = function(compile) {
 
 				var inSourceMap = fs.readFileSync(inSourceMapPath).toString()
 				inSourceMap = new sourceMap.SourceMapConsumer(inSourceMap)
-				inSourceMap.sourceRoot = path.relative(sourceRoot, inSourceMap.sourceRoot)
+				inSourceMap.sourceRoot = path.relative(sourceRoot, inSourceMap.sourceRoot || "")
 
 				var sourceDir = path.relative(root, path.dirname(inSourceMapPath))
 				var source = path.join(sourceDir, inSourceMap.file)
