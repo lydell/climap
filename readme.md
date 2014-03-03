@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/lydell/climap.png?branch=master)](https://travis-ci.org/lydell/climap)
 
+**Deprecated.** Please don’t use this. It is no good. Instead, you might want to read about sensible
+source map options: <https://github.com/jmeas/sourcemap-options>.
+
 Overview
 ========
 
