@@ -2,7 +2,7 @@
   "name": "climap",
   "version": "0.1.2",
   "author": "Simon Lydell",
-  "license": "LGPLv3",
+  "license": "LGPL-3.0",
   "description": "Super simple source map generation for CLI tools.",
   "main": "index.js",
   "repository": "lydell/climap",
